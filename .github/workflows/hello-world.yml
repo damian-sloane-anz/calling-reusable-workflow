@@ -6,7 +6,7 @@ on:
 
 jobs:
   hello-world:
-    uses: damian-sloane-anz/monorepo-reusable-workflows/.github/workflows@main
+    uses: damian-sloane-anz/monorepo-reusable-workflows/.github/workflows/hello-world.yml@main
     runs-on: ubuntu-latest
     with:
       name: World
