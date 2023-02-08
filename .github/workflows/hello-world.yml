@@ -1,11 +1,11 @@
-name: Example Workflow
+name: Hello World Test
 
 on:
   push:
 
 
 jobs:
-  hello:
+  hello-world:
     uses: damian-sloane-anz/monorepo-reusable-workflows/.github/workflows@main
     runs-on: ubuntu-latest
     with:
