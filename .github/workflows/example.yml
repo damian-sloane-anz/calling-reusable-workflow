@@ -1,0 +1,12 @@
+name: Example Workflow
+
+on:
+  push:
+
+
+jobs:
+  hello:
+    uses: damian-sloane-anz/monorepo-reusable-workflows@main
+    runs-on: ubuntu-latest
+    with:
+      name: World
